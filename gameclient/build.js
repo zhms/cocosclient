@@ -40,6 +40,18 @@ const getfiles = (baseentry, entry, files) => {
 	})
 }
 
+try {
+	fs.mkdirSync('../_packages')
+} catch (error) {}
+
+try {
+	fs.mkdirSync('../_packages/android')
+} catch (error) {}
+
+try {
+	fs.mkdirSync('../_packages/ios')
+} catch (error) {}
+
 for (let i = 0; i < games.length; i++) {
 	let gameid = games[i]
 	let files = []
@@ -51,12 +63,24 @@ for (let i = 0; i < games.length; i++) {
 		let md5value = crypto.createHash('md5').update(fs.readFileSync(file)).digest('hex')
 		info[files[j]] = { m: md5value, s: filesize }
 	}
-	fs.writeFileSync(basedir + `/${gameid}/version.txt`, JSON.stringify(info))
+	fs.writeFileSync(basedir + `${gameid}/version.txt`, JSON.stringify(info))
+	let version = {}
+	try {
+		version = JSON.parse(fs.readFileSync('build.json', 'utf-8'))
+	} catch (error) {}
+	let v = version[gameid] || 0
+	v += 1
+	let src = basedir + `${gameid}`
+	fs.writeFileSync('zzcopy.bat', '@echo off\r\n')
+	fs.appendFileSync('zzcopy.bat', `xcopy /D /E /I /F /Y "${src}" "../_packages/android/hall/v${v}"\r\n`)
+	fs.appendFileSync('zzcopy.bat', `xcopy /D /E /I /F /Y "${src}" "../_packages/ios/hall/v${v}"\r\n`)
+	version[gameid] = v
+	fs.writeFileSync('build.json', JSON.stringify(version))
+	let rv = {}
+	try {
+		rv = JSON.parse(fs.readFileSync('../_packages/version.json', 'utf-8'))
+	} catch (error) {}
+	rv[`android_${gameid}`] = v
+	rv[`ios_${gameid}`] = v
+	fs.writeFileSync('../_packages/version.json', JSON.stringify(rv))
 }
-
-let version = {}
-try {
-	version = JSON.parse(fs.readFileSync('build.json', 'utf-8'))
-} catch (error) {}
-
-console.log(version)
