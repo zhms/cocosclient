@@ -1,0 +1,21 @@
+{
+  "options": {
+    "web-desktop": {
+      "configID": "a7aa9a",
+      "services": []
+    },
+    "android": {
+      "configID": "a7aa9a",
+      "services": []
+    },
+    "windows": {
+      "configID": "a7aa9a",
+      "services": []
+    }
+  },
+  "builder-options": {
+    "configID": "a7aa9a",
+    "services": []
+  },
+  "__version__": "3.0.2"
+}

@@ -1,0 +1,16 @@
+node version_generator.js -v 1.0.2 -u https://test-exc-image.oss-cn-hongkong.aliyuncs.com/hotUpdate/android/ -s build/android/assets -d assets/
+https://test-exc-image.oss-cn-hongkong.aliyuncs.com/hotUpdate/android/project.manifest
+https://47.57.138.89/
+applinks:476fe41972f1a4d073187dbb32f6a01d.share2dlink.com
+a17f008b3d658c83b561cc8b9a5340cf
+line3rdp.$(PRODUCT_BUNDLE_IDENTIFIER)
+
+8f07d7032be119e72cad6e582ece76f7
+http://47.57.229.98/gameGroup/gameclient.git
+
+keytool -exportcert -alias key0  -keystore cocosgame.keystore > c:\openssl\bin\debug.txt
+openssl sha1 -binary debug.txt >debug_sha.txt
+openssl base64 -in debug_sha.txt >debug_base64.txt 
+35da16e2a2af3
+1c3388333c4ee10a170b7e4ad0bdb326
+moblink://com.cocos.game

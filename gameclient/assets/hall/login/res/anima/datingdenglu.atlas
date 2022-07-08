@@ -1,0 +1,76 @@
+
+datingdenglu.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0002
+  rotate: false
+  xy: 2, 37
+  size: 631, 412
+  orig: 1280, 720
+  offset: 322, 273
+  index: -1
+chouma2
+  rotate: false
+  xy: 773, 377
+  size: 74, 72
+  orig: 76, 74
+  offset: 1, 1
+  index: -1
+chouma3
+  rotate: false
+  xy: 849, 388
+  size: 62, 61
+  orig: 64, 63
+  offset: 1, 1
+  index: -1
+q1
+  rotate: false
+  xy: 635, 93
+  size: 85, 86
+  orig: 87, 88
+  offset: 1, 1
+  index: -1
+q2
+  rotate: true
+  xy: 635, 181
+  size: 96, 126
+  orig: 103, 131
+  offset: 1, 4
+  index: -1
+xing1
+  rotate: false
+  xy: 635, 279
+  size: 136, 170
+  orig: 155, 250
+  offset: 8, 72
+  index: -1
+xing2
+  rotate: false
+  xy: 635, 2
+  size: 72, 89
+  orig: 83, 133
+  offset: 5, 39
+  index: -1
+xing3
+  rotate: false
+  xy: 849, 338
+  size: 64, 48
+  orig: 70, 60
+  offset: 2, 4
+  index: -1
+xing4
+  rotate: true
+  xy: 722, 40
+  size: 139, 37
+  orig: 141, 39
+  offset: 1, 1
+  index: -1
+zhi
+  rotate: false
+  xy: 763, 141
+  size: 89, 136
+  orig: 89, 136
+  offset: 0, 0
+  index: -1

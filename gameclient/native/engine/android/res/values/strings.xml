@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">999.Bet</string>
+    <style name="LaunchTheme" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/launch</item>
+        <!--令主题无标题-->
+        <item name="android:windowNoTitle" >true</item >
+    </style>
+
+    <string name="facebook_app_id">441880973935033</string>
+    <string name="facebook_client_token">bc76b34584429245b5de939a83b3acfa</string>
+    <string name="fb_login_protocol_scheme">fb441880973935033</string>
+</resources>

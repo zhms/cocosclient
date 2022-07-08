@@ -1,0 +1,34 @@
+{
+  "options": {
+    "android": {
+      "packageName": "com.bet999.game",
+      "orientation": {
+        "portrait": false,
+        "upsideDown": false,
+        "landscapeRight": true,
+        "landscapeLeft": true
+      },
+      "apiLevel": "android-26",
+      "appABIs": [
+        "arm64-v8a",
+        "armeabi-v7a"
+      ],
+      "useDebugKeystore": false,
+      "keystorePath": "D:\\github\\cocosclient\\basepkg\\bet999.keystore",
+      "keystorePassword": "111111111",
+      "keystoreAlias": "bet999",
+      "keystoreAliasPassword": "111111111",
+      "appBundle": false,
+      "androidInstant": false,
+      "remoteUrl": "",
+      "sdkPath": "",
+      "ndkPath": "",
+      "renderBackEnd": {
+        "vulkan": false,
+        "gles3": true,
+        "gles2": true
+      }
+    }
+  },
+  "__version__": "1.0.0"
+}

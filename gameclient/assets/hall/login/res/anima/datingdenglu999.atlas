@@ -1,0 +1,83 @@
+
+datingdenglu999.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+9
+  rotate: true
+  xy: 2, 2
+  size: 91, 125
+  orig: 93, 127
+  offset: 1, 1
+  index: -1
+99
+  rotate: true
+  xy: 129, 10
+  size: 92, 125
+  orig: 94, 127
+  offset: 1, 1
+  index: -1
+999
+  rotate: true
+  xy: 237, 130
+  size: 91, 125
+  orig: 93, 127
+  offset: 1, 1
+  index: -1
+A1
+  rotate: false
+  xy: 119, 104
+  size: 116, 117
+  orig: 118, 119
+  offset: 1, 1
+  index: -1
+A2
+  rotate: true
+  xy: 2, 95
+  size: 126, 115
+  orig: 128, 117
+  offset: 1, 1
+  index: -1
+chouma
+  rotate: false
+  xy: 256, 33
+  size: 90, 95
+  orig: 92, 97
+  offset: 1, 1
+  index: -1
+huangguang
+  rotate: true
+  xy: 348, 19
+  size: 109, 70
+  orig: 111, 72
+  offset: 1, 1
+  index: -1
+jinbi1
+  rotate: true
+  xy: 364, 143
+  size: 78, 69
+  orig: 80, 71
+  offset: 1, 1
+  index: -1
+saoguang
+  rotate: false
+  xy: 2, 223
+  size: 574, 799
+  orig: 607, 832
+  offset: 16, 17
+  index: -1
+shaizi1
+  rotate: true
+  xy: 420, 87
+  size: 54, 51
+  orig: 57, 53
+  offset: 1, 1
+  index: -1
+shaizi2
+  rotate: false
+  xy: 435, 171
+  size: 49, 50
+  orig: 52, 52
+  offset: 1, 1
+  index: -1
