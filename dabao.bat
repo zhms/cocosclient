@@ -6,5 +6,5 @@ cd gameclient
 node build.js
 call zzcopy.bat
 del /q /s "zzcopy.bat"
-oss --config-file osscfg sync ../_packages oss://abunewtest/
+oss --config-file osscfg sync ../_packages oss://abunewtest/ -u
 pause

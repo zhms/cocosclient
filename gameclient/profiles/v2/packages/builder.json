@@ -4,13 +4,91 @@
   },
   "common": {
     "name": "bet999",
-    "outputName": "windows-001",
+    "outputName": "android",
     "mainBundleCompressionType": "merge_dep",
-    "platform": "windows",
+    "platform": "android",
     "replaceSplashScreen": true
   },
   "BuildTaskManager": {
-    "taskMap": {}
+    "taskMap": {
+      "1657266239009": {
+        "id": "1657266239009",
+        "progress": 1,
+        "state": "success",
+        "message": "2022-7-9 20:35 Build success in 2950 ms!",
+        "options": {
+          "name": "bet999",
+          "platform": "android",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "sourceMaps": false,
+          "replaceSplashScreen": true,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "e93b5995-bf2c-41c8-9876-8afae5408d5a",
+          "scenes": [
+            {
+              "url": "db://assets/base/GameScene.scene",
+              "uuid": "e93b5995-bf2c-41c8-9876-8afae5408d5a",
+              "inBundle": false
+            }
+          ],
+          "outputName": "android",
+          "packages": {
+            "android": {
+              "packageName": "com.bet999.game",
+              "orientation": {
+                "portrait": false,
+                "upsideDown": false,
+                "landscapeRight": true,
+                "landscapeLeft": true
+              },
+              "apiLevel": "android-26",
+              "appABIs": [
+                "arm64-v8a",
+                "armeabi-v7a"
+              ],
+              "useDebugKeystore": false,
+              "keystorePath": "D:\\github\\cocosclient\\basepkg\\bet999.keystore",
+              "keystorePassword": "111111111",
+              "keystoreAlias": "bet999",
+              "keystoreAliasPassword": "111111111",
+              "appBundle": false,
+              "androidInstant": false,
+              "remoteUrl": "",
+              "sdkPath": "",
+              "ndkPath": "",
+              "renderBackEnd": {
+                "vulkan": false,
+                "gles3": true,
+                "gles2": true
+              }
+            },
+            "native": {
+              "polyfills": {
+                "asyncFunctions": true
+              },
+              "encrypted": false,
+              "xxteaKey": "c41lMS+/NLdaDK4x",
+              "compressZip": false,
+              "makeAfterBuild": false,
+              "JobSystem": "tbb"
+            },
+            "cocos-service": {
+              "configID": "a7aa9a",
+              "services": []
+            }
+          }
+        },
+        "time": "2022-7-9 20:35",
+        "dirty": false
+      }
+    }
   },
   "__version__": "1.3.0"
 }

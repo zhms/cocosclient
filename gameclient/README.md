@@ -139,5 +139,6 @@ jsb.fileUtils.setSearchPaths(paths);
 })();
 
 if(!localStorage.getItem("showvideo")) localStorage.setItem("showvideo","true")
+localStorage.setItem("engineversion","1")
 localStorage.setItem("defaultlang","zh")
 localStorage.setItem("UPDATEURL","https://abunewtest.oss-me-east-1.aliyuncs.com")
